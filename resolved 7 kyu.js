@@ -1,1 +1,0 @@
-resolved 8 kyu
