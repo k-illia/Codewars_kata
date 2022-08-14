@@ -30,3 +30,13 @@
 //
 //  console.log(countPositivesSumNegatives(null))
 // =======================================================================================================================================
+// function maps(x){
+//     let b = []
+//     for (let i = 0; i < x.length; i++) {
+//
+//         b.push(x[i]*2)
+//
+//     }
+//     return b
+// }
+// console.log(maps([2,2,2,7]))
