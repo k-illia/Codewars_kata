@@ -9,8 +9,10 @@
 // Ваши баллы не включены в массив баллов вашего класса. Для расчета среднего балла вы можете добавить свой балл в данный массив!
 
 function betterThanAverage(classPoints, yourPoints) {
-   let b = classPoints.reduce(function(a, b) { return (a + b) / 2 })
+    let b = classPoints.reduce(function(a, b) { return (a + b)  })
+    b /= classPoints.length
     return b < yourPoints
 }
 
-console.log(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75))
+
+console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 69) )
