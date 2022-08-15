@@ -100,3 +100,34 @@
 //
 // const friend = friends => friends.filter(friend => friend.length == 4);
 // //===========================================================================================================================================================================
+// // Возьмите 2 строки s1и s2 включите только буквы от aдо z. Возвращает новую отсортированную строку,
+// //     максимально длинную, содержащую различные буквы (каждая из которых взята только один раз) из s1 или s2.
+// //
+// //     Примеры:
+// // a = "xyaabbbccccdefww"
+// // b = "xxxxyyyyabklmopq"
+// // longest(a, b) -> "abcdefklmopqwxy"
+// //
+// // a = "abcdefghijklmnopqrstuvwxyz"
+// // longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
+//
+// function longest(s1, s2) {
+//     let sum = s1.concat(s2).split("").sort()
+//     let uniq = Array.from(new Set(sum))
+//
+//     return uniq.join('')
+// }
+// a = "xyaabbbccccdefww"
+// b = "xxxxyyyyabklmopq"
+//
+// console.log(longest(a, b))
+//
+// BEST
+//
+// const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')
+//
+//
+// function longest(s1, s2) {
+//     return Array.from(new Set(s1 + s2)).sort().join('');
+// }
+// //===========================================================================================================================================================================
