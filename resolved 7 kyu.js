@@ -181,3 +181,13 @@ Complete the solution so that it returns true if the first argument(string) pass
 // var threes = factory(3);
 // console.log(threes(myArray))
 // //===========================================================================================================================================================================
+// function squaresNeeded(grains){
+//     let firstGrains = 1
+//     for(let i = 1; true; i++){
+//         let sum = i++
+//         console.log(i)
+//     }
+// }
+//
+// console.log(squaresNeeded())
+// //===========================================================================================================================================================================
