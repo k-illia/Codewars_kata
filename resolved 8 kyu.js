@@ -62,3 +62,10 @@
 // function greet() {
 //     return "hello world!"
 // }
+
+function capitalizeWord(word) {
+    let b = word[0].toUpperCase() + word.slice(1) ;
+    return b;
+}
+
+console.log(capitalizeWord("hello"))
