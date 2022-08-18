@@ -191,3 +191,30 @@ Complete the solution so that it returns true if the first argument(string) pass
 //
 // console.log(squaresNeeded())
 // //===========================================================================================================================================================================
+// function add(num1, num2) {
+//    let numOne = String(num1)
+//     let numTwo = String(num2)
+//     console.log(numOne[-1])
+//     let sum = []
+//     for (let i = 1; i <= numOne.length; i++){
+//         sum.push(numOne[-i] + numTwo[-i])
+//     }
+//     return sum
+// }
+//
+// console.log(add(2, 11))
+// //===========================================================================================================================================================================
+// let questions = [{
+//     question: "What's the currency of the USA?",
+//     choices: ["US dollar", "Ruble", "Horses", "Gold"],
+//     corAnswer: 0
+// }, {
+//     question: "Where was the American Declaration of Independence signed?",
+//     choices: ["Philadelphia", "At the bottom", "Frankie's Pub", "China"],
+//     corAnswer: 0
+// }];
+// for (let i = 0; i < questions.length; i++) {
+//     questions[i].usersAnswer = null
+// }
+// console.log(questions)
+// //===========================================================================================================================================================================
