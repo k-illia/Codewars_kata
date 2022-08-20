@@ -218,3 +218,37 @@ Complete the solution so that it returns true if the first argument(string) pass
 // }
 // console.log(questions)
 // //===========================================================================================================================================================================
+// function colourAssociation(array){
+//     let color = new Object()
+//
+//  for (let i = 0; i < array.length; i++) {
+//      console.log(array[i][0])
+//     color[array][i][0] = array[i][0]
+//     }
+//     // color.push(array[j][0] = array[j][1])
+//
+// return color
+//  }
+//
+// console.log(colourAssociation([["white", "goodness"], ["blue", "tranquility"]]))  //returns [{white: 'goodness'}, ...]
+// //===========================================================================================================================================================================
+
+// function colourAssociation(array){
+//     console.log(array[0])
+//     for (let i = 0; i< array.length; i++) {
+//         array = array[i].reduce(function (target, key, index) {
+//             target[key[0]] = key[1]
+//             return target;
+//         }, {})
+//         return array;
+//     }}
+//
+//
+// function temp(data) {
+//
+// }
+//
+// //console.log(colourAssociation([["white", "goodness"], ["blue", "tranquility"]]))
+// //temp([["white", "goodness"], ["blue", "tranquility"]])
+// console.log(temp([["white", "goodness"], ["blue", "tranquility"]]))
+// //===========================================================================================================================================================================
