@@ -95,3 +95,29 @@
 //
 // console.log(mergeArrays([1,2,3,4], [5,6,7,8]))
 // // =======================================================================================================================================
+// Возвращает длину самого длинного слова в предоставленном предложении.
+//
+//     Ваш ответ должен быть числом.
+// function findLongestWordLength(str) {
+//     let a = str.split(" ")
+//     let findMax = []
+//     for (let i = 0; i < a.length; i++) {
+//         findMax.push(a[i].length)
+//     }
+//     return findMax.sort(function(a, b) {
+//         return b - a
+//     })[0]
+// }
+//
+// function findLongestWordLength(s) {
+//     return s.split(' ')
+//         .reduce(function(longest, word) {
+//             return Math.max(longest, word.length)
+//         }, 0);
+// }
+//
+//
+// function findLongestWordLength(str) {
+//     return Math.max(...str.split(" ").map(word => word.length));
+// }
+// //=======================================================================================================================================
