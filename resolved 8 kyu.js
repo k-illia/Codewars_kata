@@ -165,3 +165,18 @@
 //     return num > 0 ? str + repeatStringNumTimes(str, num - 1) : '';
 // }
 // //=======================================================================================================================================
+// function truncateString(str, num) {
+//     let truncate = str.slice(0, num)
+//     if (truncate.length < 43) {
+//         return truncate + "..."
+//     }
+//     else {
+//         return truncate
+//     }
+//
+// }
+//
+// truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length);
+// //=======================================================================================================================================
+
+
